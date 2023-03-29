@@ -17,35 +17,38 @@ go install github.com/channyein1337/jsleak/@latest
 
 ### Usage
 To display help message
-
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/help.png)
 ```
 jsleak -h
 ```
-
 Secret Finder
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/secret.png)
 ```
 echo http://testphp.vulnweb.com/ | jsleak -s
 ```
 
 Link Finder
-
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/linkfinder.png)
 ```
 echo http://testphp.vulnweb.com/ | jsleak -l
 ```
 Complete Url
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/completeURL.png)
 ```
 echo http://testphp.vulnweb.com/ | jsleak -e
 ```
-Check Status 
+Check Status
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/status_code.png)
 ```
 echo http://testphp.vulnweb.com/ | jsleak -c 20 -k
 ```
 You can also use multiple flags 
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/multipleFlags.png)
 ```
 echo http://testphp.vulnweb.com/ | jsleak -c 20 -l -s 
 ```
-
 Running with Urls
+![](https://raw.githubusercontent.com/channyein1337/jsleak/main/images/file.png)
 ```
 cat urls.txt | jsleak -l -s -c 30
 ```
@@ -55,3 +58,7 @@ cat urls.txt | jsleak -l -s -c 30
 - Support scanning apk files.
 - Update Regex.
 - Support mulitple user agents.
+
+### Credit and thanks to all the following resources
+- https://github.com/GerbenJavado/LinkFinder
+- https://github.com/0xsha/GoLinkFinder
