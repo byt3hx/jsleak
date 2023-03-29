@@ -17,6 +17,7 @@ go install github.com/channyein1337/jsleak/@latest
 ```
 
 ### Usage
+
 To display help message
 
 ```
