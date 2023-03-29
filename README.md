@@ -10,10 +10,45 @@ I was developing jsleak during most of my free time for my own need.It is easy-t
 - Concurrent processing for scanning of multiple Urls
 - Check status code if the url is alive or not
 
-### usage
+### Instllation
+```
+go install github.com/channyein1337/jsleak/@latest
+```
 
+### Usage
+To display help message
 
+```
+jsleak -h
+```
 
+Secret Finder
+```
+echo http://testphp.vulnweb.com/ | jsleak -s
+```
+
+Link Finder
+
+```
+echo http://testphp.vulnweb.com/ | jsleak -l
+```
+Complete Url
+```
+echo http://testphp.vulnweb.com/ | jsleak -e
+```
+Check Status 
+```
+echo http://testphp.vulnweb.com/ | jsleak -c 20 -k
+```
+You can also use multiple flags 
+```
+echo http://testphp.vulnweb.com/ | jsleak -c 20 -l -s 
+```
+
+Running with Urls
+```
+cat urls.txt | jsleak -l -s -c 30
+```
 ### To Do
 
 - Support scanning local files.
