@@ -19,7 +19,7 @@ go get github.com/channyein1337/jsleak
 If you are using latest version of  go (1.17+) , use the following command to install.
 
 ```
-go install github.com/channyein1337/jsleak/@latest
+go install github.com/channyein1337/jsleak@latest
 ```
 
 
