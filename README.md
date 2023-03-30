@@ -11,10 +11,17 @@ I was developing jsleak during most of my free time for my own need.It is easy-t
 - Check status code if the url is alive or not
 
 ### Instllation
+If you are using old version of golang (go 1.15, 1.16) , use the following command to install jsleak.
+```
+go get github.com/channyein1337/jsleak
+```
+
+If you are using latest version of  go (1.17+) , use the following command to install.
 
 ```
 go install github.com/channyein1337/jsleak/@latest
 ```
+
 
 ### Usage
 
