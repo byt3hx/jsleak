@@ -84,10 +84,13 @@ cat urls.txt | jsleak -l -s -c 30
 
 ### To Do
 
+- Scan secret on completeURL with 200 response.
+- Add Version flag.
 - Support scanning local files.
 - Support scanning apk files.
 - Update Regex.
 - Support mulitple user agents.
+
 
 ### Credit and thanks to all the following resources
 - https://github.com/GerbenJavado/LinkFinder
