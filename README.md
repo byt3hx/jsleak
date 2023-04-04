@@ -10,7 +10,7 @@ I was developing jsleak during most of my free time for my own need.It is easy-t
 - Concurrent processing for scanning of multiple Urls
 - Check status code if the url is alive or not
 
-### Instllation
+### Installation
 If you are using old version of golang (go 1.15, 1.16) , use the following command to install jsleak.
 ```
 go get github.com/channyein1337/jsleak
