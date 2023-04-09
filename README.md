@@ -90,6 +90,7 @@ cat urls.txt | jsleak -l -s -c 30
 - Support scanning apk files.
 - Update Regex.
 - Support mulitple user agents.
+- Support color output
 
 
 ### Credit and thanks to all the following resources
